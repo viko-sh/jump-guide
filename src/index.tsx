@@ -1,23 +1,11 @@
-/**
- * @class ExampleComponent
- */
+import { Layout } from "./Layout";
+export { Layout };
 
-import * as React from 'react'
+import { Header } from "./Header";
+export { Header };
 
-import styles from './styles.css'
+// alternative, more concise syntax for named exports
+// export { default as Foo } from './Foo'
 
-export type Props = { text: string }
-
-export default class ExampleComponent extends React.Component<Props> {
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+// you can optionally also set a default export for your module
+// export default { Layout };
