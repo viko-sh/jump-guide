@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 
-export type HeaderProps = {
+export type LayoutProps = {
   children?: ReactNode;
-  sticky?: boolean;
 };

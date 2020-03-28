@@ -4,6 +4,11 @@ export { Layout };
 import { Header } from "./Header";
 export { Header };
 
+import { SideNav } from "./SideNav";
+export { SideNav };
+
+export { StyledMenuIcon } from "./SideNav/Styles";
+
 // alternative, more concise syntax for named exports
 // export { default as Foo } from './Foo'
 

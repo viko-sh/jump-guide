@@ -22,7 +22,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "styled-icons": "^10.2.1"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -31,7 +32,6 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "styled-components": "^5.0.1",
     "@svgr/rollup": "^2.4.1",
     "@types/jest": "^23.1.5",
     "@types/react": "^16.9.25",
@@ -50,6 +50,7 @@
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-typescript2": "^0.17.0",
     "rollup-plugin-url": "^1.4.0",
+    "styled-components": "^5.0.1",
     "typescript": "^2.8.3"
   },
   "files": [

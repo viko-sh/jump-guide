@@ -1,11 +1,19 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import { HeaderProps } from "./type";
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.header<Partial<HeaderProps>>`
   grid-area: header;
-  background-color: #648ca6;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-  background-color: #648ca6;
+  background-color: rgb(0, 98, 255);
+  ${(props: any) =>
+    props.sticky &&
+    css`
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 50px;
+    `}
 `;
