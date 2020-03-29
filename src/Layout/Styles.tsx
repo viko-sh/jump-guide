@@ -9,6 +9,7 @@ export const StyledLayout = styled.div`
     "main"
     "footer";
   height: 100vh;
+  overflow: hidden;
   /* Non-mobile styles, 750px breakpoint */
   @media only screen and (min-width: 46.875em) {
     grid-template-columns: 240px 1fr; /* Show the side nav for non-mobile screens */
